@@ -2,11 +2,10 @@
 
 Run with:
 
-<code>
+```
 docker run --rm -v $(pwd):/data mcoutobr/docker-phantomjs
-</code>
+```
 
+The image will run the `"script.js"` file, and you can load/save from the current directory.
 
-The image will run the <code>"script.js"</code> file, and you can load/save from the current directory.
-
-You can change script name using <code>PHANTOM_SCRIPT</code> environment variable.
+You can change script name using `PHANTOM_SCRIPT` environment variable.
