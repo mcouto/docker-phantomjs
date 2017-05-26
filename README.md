@@ -3,8 +3,9 @@
 Run with:
 
 <code>
-docker run --rm -v $(pwd):/data mcouto/phantomjs
+docker run --rm -v $(pwd):/data mcoutobr/docker-phantomjs
 </code>
+
 
 The image will run the <code>"script.js"</code> file, and you can load/save from the current directory.
 
